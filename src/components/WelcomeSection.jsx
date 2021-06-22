@@ -1,6 +1,6 @@
 import React from "react";
 import "../styles/WelcomeSection.css";
-import profile from "../profile.jpg";
+import profile from "../img/profile.jpg";
 import { Container, Row, Col } from "react-bootstrap";
 
 export function WelcomeSection() {
