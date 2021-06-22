@@ -1,4 +1,4 @@
-import { NavbarPortfolio } from "../components/navbar.jsx"
+import { NavbarPortfolio } from "../components/NavbarPortfolio.jsx"
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {

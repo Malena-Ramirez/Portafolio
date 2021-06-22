@@ -1,0 +1,17 @@
+nav.navbar {
+  background-color: #2b335c !important;
+}
+
+.navbar-brand > img {
+  width: 80px;
+  height: 80px;
+}
+
+#basic-navbar-nav {
+  justify-content: flex-end;
+}
+
+a.nav-link {
+  margin-right: 30px;
+  margin-left: 10px;
+}
