@@ -1,5 +1,5 @@
 nav.navbar {
-  background-color: #2b335c !important;
+  background-color: var(--secondary-color) !important;
 }
 
 .navbar-brand > img {
@@ -15,11 +15,10 @@ nav.navbar {
 a.nav-link {
   margin-right: 30px;
   margin-left: 10px;
-  color: #eef9fc !important;
+  color: var(--font-color) !important;
 }
 
 a.nav-link:hover {
-  color: #f6511d !important;
+  color: var(--tertiary-color) !important;
   border-radius: 5px;
-  border: 1px solid #f6511d;
 }

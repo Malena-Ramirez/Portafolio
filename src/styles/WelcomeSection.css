@@ -1,11 +1,16 @@
 #welcome-section {
   height: 100vh;
-  background-color: #2b335c;
-  color: #eef9fc;
+  background-color: var(--secondary-color);
+  color: var(--font-color);
   text-align: center;
 }
 
 img.profile-img {
   border-radius: 50%;
-  border: 3px solid #f6511d;
+  border: 3px solid var(--tertiary-color);
+}
+
+#welcome-section h1 {
+  color: var(--main-color);
+  font-weight: 700;
 }
