@@ -8,6 +8,10 @@
 img.profile-img {
   border-radius: 50%;
   border: 3px solid var(--tertiary-color);
+  margin-right: 100px;
+  box-shadow: 0px 1px 69px -17px rgba(246, 81, 29, 0.75);
+  -webkit-box-shadow: 0px 1px 69px -17px rgba(246, 81, 29, 0.75);
+  -moz-box-shadow: 0px 1px 69px -17px rgba(246, 81, 29, 0.75);
 }
 
 #welcome-section h1 {
