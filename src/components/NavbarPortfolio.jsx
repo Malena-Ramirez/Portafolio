@@ -12,8 +12,8 @@ export function NavbarPortfolio() {
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">
         <Nav>
-          <Nav.Link href="#home">Home</Nav.Link>
-          <Nav.Link href="#link">Proyectos</Nav.Link>
+          <Nav.Link href="#welcome-section">Home</Nav.Link>
+          <Nav.Link href="#projects">Proyectos</Nav.Link>
           <Nav.Link href="#link">Contáctame</Nav.Link>
         </Nav>
       </Navbar.Collapse>
