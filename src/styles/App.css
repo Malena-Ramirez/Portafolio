@@ -4,3 +4,7 @@
   --tertiary-color: #f6511d;
   --font-color: #eef9fc;
 }
+
+.App {
+  background-color: var(--secondary-color);
+}
