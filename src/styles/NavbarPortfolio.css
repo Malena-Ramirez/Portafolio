@@ -5,6 +5,7 @@ nav.navbar {
 .navbar-brand > img {
   width: 80px;
   height: 80px;
+  margin-left: 20px;
 }
 
 #basic-navbar-nav {
@@ -14,4 +15,9 @@ nav.navbar {
 a.nav-link {
   margin-right: 30px;
   margin-left: 10px;
+  color: #eef9fc !important;
+}
+
+a.nav-link:hover {
+  color: #f6511d !important;
 }
