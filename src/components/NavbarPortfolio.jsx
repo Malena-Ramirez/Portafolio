@@ -15,7 +15,7 @@ export const NavbarPortfolio = () => {
           <Nav.Link href="#welcome-section">Home</Nav.Link>
           <Nav.Link href="#skillset">Habilidades</Nav.Link>
           <Nav.Link href="#projects">Proyectos</Nav.Link>
-          <Nav.Link href="#link">Contáctame</Nav.Link>
+          <Nav.Link href="#contact">Contáctame</Nav.Link>
         </Nav>
       </Navbar.Collapse>
     </Navbar>
