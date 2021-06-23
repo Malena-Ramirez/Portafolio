@@ -1,13 +1,17 @@
 #welcome-section {
   min-height: 100vh;
+  width: 100vw;
   color: var(--font-color);
   text-align: center;
+  background-color: var(--secondary-color);
+  padding-top: 100px;
 }
 
 img.profile-img {
+  width: 230px;
+  height: 230px;
   border-radius: 50%;
   border: 3px solid var(--tertiary-color);
-  margin-right: 100px;
   box-shadow: 0px 1px 69px -17px rgba(246, 81, 29, 0.75);
   -webkit-box-shadow: 0px 1px 69px -17px rgba(246, 81, 29, 0.75);
   -moz-box-shadow: 0px 1px 69px -17px rgba(246, 81, 29, 0.75);
@@ -15,6 +19,28 @@ img.profile-img {
 
 #welcome-section h1 {
   color: var(--main-color);
+  font-size: 1.5rem;
   font-weight: 700;
-  letter-spacing: 4px;
+  letter-spacing: 2px;
+}
+
+.welcome-text p {
+  text-align: justify;
+  margin-top: 15px;
+  margin-bottom: 30px;
+}
+
+@media (min-width: 768px) {
+  #welcome-section {
+    padding-top: 0;
+  }
+  img.profile-img {
+    margin-right: 100px;
+    width: 100%;
+    height: auto;
+  }
+  #welcome-section h1 {
+    font-size: 2rem;
+    letter-spacing: 4px;
+  }
 }
