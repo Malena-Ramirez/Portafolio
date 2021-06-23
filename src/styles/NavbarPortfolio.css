@@ -1,11 +1,20 @@
 nav.navbar {
   background-color: var(--secondary-color) !important;
+  width: 100vw;
+  box-sizing: border-box;
+  padding-left: 0;
+  padding-right: 0;
 }
 
 .navbar-brand > img {
-  width: 100px;
-  height: 100px;
+  width: 50px;
+  height: 50px;
   margin-left: 20px;
+}
+
+button.navbar-toggler.collapsed,
+button.navbar-toggler {
+  margin-right: 20px;
 }
 
 #basic-navbar-nav {
@@ -16,9 +25,23 @@ a.nav-link {
   margin-right: 30px;
   margin-left: 10px;
   color: var(--font-color) !important;
+  font-size: 0.8rem;
 }
 
 a.nav-link:hover {
   color: var(--tertiary-color) !important;
   border-radius: 5px;
+}
+
+@media (min-width: 768px) {
+  .navbar-brand > img {
+    width: 100px;
+    height: 100px;
+  }
+  a.nav-link {
+    font-size: 1rem;
+  }
+  #basic-navbar-nav {
+    padding-right: 30px;
+  }
 }

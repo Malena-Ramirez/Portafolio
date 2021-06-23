@@ -5,7 +5,7 @@ import "../styles/NavbarPortfolio.css";
 
 export const NavbarPortfolio = () => {
   return (
-    <Navbar bg="dark" expand="lg" variant="dark" fixed="top">
+    <Navbar bg="dark" expand="md" variant="dark" fixed="top">
       <Navbar.Brand href="#home">
         <img src={logo} className="d-inline-block align-top" alt="Logo" />
       </Navbar.Brand>
