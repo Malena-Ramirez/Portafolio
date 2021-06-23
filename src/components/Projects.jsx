@@ -10,7 +10,7 @@ export function Projects() {
       <h2>Proyectos en los que he trabajado</h2>
       <Row xs={1} md={3} className="g-4 m-5">
         {projects.map((project, index) => (
-          <ProjectCard img={project.img} name={project.name} description={project.description} key={`${project.name}-${index}`} />
+          <ProjectCard url={project.url} img={project.img} name={project.name} description={project.description} key={`${project.name}-${index}`} />
         ))}
       </Row>
     </section>
