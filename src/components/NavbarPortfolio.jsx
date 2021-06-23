@@ -3,7 +3,7 @@ import { Navbar, Nav } from "react-bootstrap";
 import logo from "../img/logo.png";
 import "../styles/NavbarPortfolio.css";
 
-export function NavbarPortfolio() {
+export const NavbarPortfolio = () => {
   return (
     <Navbar bg="dark" expand="lg" variant="dark" fixed="top">
       <Navbar.Brand href="#home">
@@ -13,10 +13,11 @@ export function NavbarPortfolio() {
       <Navbar.Collapse id="basic-navbar-nav">
         <Nav>
           <Nav.Link href="#welcome-section">Home</Nav.Link>
+          <Nav.Link href="#skillset">Habilidades</Nav.Link>
           <Nav.Link href="#projects">Proyectos</Nav.Link>
           <Nav.Link href="#link">Contáctame</Nav.Link>
         </Nav>
       </Navbar.Collapse>
     </Navbar>
   );
-}
+};
