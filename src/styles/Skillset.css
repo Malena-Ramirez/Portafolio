@@ -1,7 +1,7 @@
 #skillset {
   height: 100vh;
   background-color: var(--font-color);
-  padding-top: 80px;
+  /* padding-top: 80px; */
 }
 
 #skillset h2 {
@@ -9,6 +9,7 @@
   font-weight: 600;
   text-align: center;
   font-size: 2.5rem;
+  margin-bottom: 100px;
 }
 
 .skillset-icons-container i {

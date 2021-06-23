@@ -6,7 +6,7 @@ import "../styles/Projects.css";
 
 export function Projects() {
   return (
-    <section id="projects">
+    <section id="projects" className="d-flex flex-column align-items-center justify-content-center">
       <h2>Proyectos en los que he trabajado</h2>
       <Row xs={1} md={3} className="g-4 m-5">
         {projects.map((project, index) => (
