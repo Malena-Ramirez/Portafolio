@@ -7,4 +7,6 @@
 
 .App {
   background-color: var(--secondary-color);
+  /* background: rgb(43, 51, 92); */
+  /* background: linear-gradient(180deg, rgba(43, 51, 92, 1) 50%, rgba(6, 188, 193, 1) 100%); */
 }
