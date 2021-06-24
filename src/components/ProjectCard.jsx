@@ -3,7 +3,7 @@ import { Col, Card } from "react-bootstrap";
 
 export default function ProjectCard({ img, name, description, url }) {
   return (
-    <Col>
+    <Col className="mb-3">
       <Card className="h-100 text-center">
         <a href={url} className="card-link" target="_blank" rel="noopener noreferrer">
           <Card.Img variant="top" src={img} />
