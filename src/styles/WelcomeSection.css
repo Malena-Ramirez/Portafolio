@@ -19,7 +19,7 @@ img.profile-img {
 
 #welcome-section h1 {
   color: var(--main-color);
-  font-size: 1.5rem;
+  font-size: 1.6rem;
   font-weight: 700;
   letter-spacing: 2px;
 }
@@ -34,11 +34,13 @@ img.profile-img {
   #welcome-section {
     padding-top: 0;
   }
+
   img.profile-img {
     margin-right: 100px;
     width: 100%;
     height: auto;
   }
+
   #welcome-section h1 {
     font-size: 2rem;
     letter-spacing: 4px;
