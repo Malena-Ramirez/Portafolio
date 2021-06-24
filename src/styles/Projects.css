@@ -1,6 +1,7 @@
 #projects {
   min-height: 100vh;
-  background-color: var(--main-color);
+  background: rgb(43, 51, 92);
+  background: linear-gradient(0deg, rgba(43, 51, 92, 1) 0%, rgba(6, 188, 193, 1) 100%);
 }
 
 #projects h2 {

@@ -27,11 +27,11 @@ export const Contact = () => {
             <form action="https://formspree.io/f/xbjqynaq" method="post" className="p-3" id="contact-form">
               <Form.Group className="mb-3" controlId="email">
                 <Form.Label>Email</Form.Label>
-                <Form.Control type="email" placeholder="Email" name="email" />
+                <Form.Control type="email" placeholder="Email" name="email" required />
               </Form.Group>
               <Form.Group className="mb-3" controlId="message">
                 <Form.Label>Mensaje</Form.Label>
-                <Form.Control as="textarea" rows={3} placeholder="Escribe tu mensaje aquí" name="message" />
+                <Form.Control as="textarea" rows={3} placeholder="Escribe tu mensaje aquí" name="message" required />
               </Form.Group>
               <Button type="submit" size="lg">
                 Enviar
