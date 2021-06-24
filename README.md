@@ -6,7 +6,7 @@ Puedes verlo [aquí](https://malenaramirez.netlify.app/).
 
 - React
 - CSS
-- Bootstrap
+- React-Bootstrap
 
 ## 🌟 Autor
 
