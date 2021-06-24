@@ -6,8 +6,12 @@
 #contact h2 {
   color: var(--main-color);
   font-weight: 600;
-  font-size: 2.5rem;
+  font-size: 2rem;
   text-align: center;
+}
+
+#contact p {
+  text-align: justify;
 }
 
 .contact-icon i {
@@ -35,4 +39,14 @@
   box-shadow: 0 0 10px 0 var(--main-color) inset, 0 0 10px 4px var(--main-color);
   background-color: transparent;
   color: var(--font-color);
+}
+
+@media (min-width: 768px) {
+  #contact h2 {
+    font-size: 2.5rem;
+  }
+  #contact p {
+    margin: 40px 0 60px !important;
+    padding: 0 30px;
+  }
 }
