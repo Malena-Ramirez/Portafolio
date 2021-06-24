@@ -1,21 +1,37 @@
 #skillset {
   min-height: 100vh;
   background-color: var(--font-color);
+  color: var(--secondary-color);
 }
 
 #skillset h2 {
   color: var(--secondary-color);
   font-weight: 600;
   text-align: center;
-  font-size: 2.5rem;
-  margin-bottom: 100px;
+  font-size: 2rem;
+  margin-bottom: 80px;
 }
 
 .skillset-icons-container i {
-  font-size: 100px;
+  font-size: 50px;
   color: var(--tertiary-color);
 }
 
 .skillset-icons-container {
   width: 100%;
+}
+
+@media (min-width: 768px) {
+  #skillset {
+    padding-top: 0;
+  }
+
+  #skillset h2 {
+    font-size: 2.5rem;
+    margin-bottom: 100px;
+  }
+
+  .skillset-icons-container i {
+    font-size: 100px;
+  }
 }
