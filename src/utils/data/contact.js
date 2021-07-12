@@ -1,6 +1,6 @@
 export const contact = [
   {
-    url: "https://www.linkedin.com/in/malena-ram%C3%ADrez-uribe-033643215/",
+    url: "https://www.linkedin.com/in/malena-ramirez-uribe/",
     icon: "fab fa-linkedin-in",
   },
   {
