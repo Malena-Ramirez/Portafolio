@@ -1,13 +1,25 @@
 #skillset {
-  min-height: 100vh;
+  min-height: 90vh;
   background-color: var(--font-color);
   color: var(--secondary-color);
   border: 30px solid transparent;
   border-top: 80px solid transparent;
   border-bottom: 80px solid transparent;
-  -moz-border-image: -moz-linear-gradient(top, var(--secondary-color) 0%, var(--main-color) 100%);
-  -webkit-border-image: -webkit-linear-gradient(top, var(--secondary-color) 0%, var(--main-color) 100%);
-  border-image: linear-gradient(to bottom, var(--secondary-color) 0%, var(--main-color) 100%);
+  -moz-border-image: -moz-linear-gradient(
+    top,
+    var(--secondary-color) 0%,
+    var(--main-color) 100%
+  );
+  -webkit-border-image: -webkit-linear-gradient(
+    top,
+    var(--secondary-color) 0%,
+    var(--main-color) 100%
+  );
+  border-image: linear-gradient(
+    to bottom,
+    var(--secondary-color) 0%,
+    var(--main-color) 100%
+  );
   border-image-slice: 1;
 }
 
@@ -32,9 +44,21 @@
   #skillset {
     padding-top: 0;
     border: 80px solid transparent;
-    -moz-border-image: -moz-linear-gradient(top, var(--secondary-color) 0%, var(--main-color) 100%);
-    -webkit-border-image: -webkit-linear-gradient(top, var(--secondary-color) 0%, var(--main-color) 100%);
-    border-image: linear-gradient(to bottom, var(--secondary-color) 0%, var(--main-color) 100%);
+    -moz-border-image: -moz-linear-gradient(
+      top,
+      var(--secondary-color) 0%,
+      var(--main-color) 100%
+    );
+    -webkit-border-image: -webkit-linear-gradient(
+      top,
+      var(--secondary-color) 0%,
+      var(--main-color) 100%
+    );
+    border-image: linear-gradient(
+      to bottom,
+      var(--secondary-color) 0%,
+      var(--main-color) 100%
+    );
     border-image-slice: 1;
   }
 
